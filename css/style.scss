@@ -335,3 +335,24 @@ body {
         
     } 
 }
+
+@media screen and (max-width:900px) {
+
+    .card-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 24px;
+        margin: 54px 120px;
+        justify-items: center;
+
+        .card {
+            max-width: 360px;
+
+        }
+    }
+
+    .playground {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+}

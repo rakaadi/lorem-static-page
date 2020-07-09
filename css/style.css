@@ -101,3 +101,7 @@ body { background-color: #f0f0f0; font-family: "Noto Sans JP", sans-serif; }
 .more .button { font-size: 2.5rem; margin-bottom: 20px; }
 
 .more .button i:hover { -webkit-transform: scale(1.1); transform: scale(1.1); }
+
+@media screen and (max-width: 900px) { .card-container { display: -ms-grid; display: grid; -ms-grid-columns: 1fr; grid-template-columns: 1fr; gap: 24px; margin: 54px 120px; justify-items: center; }
+  .card-container .card { max-width: 360px; }
+  .playground { -ms-grid-columns: 1fr; grid-template-columns: 1fr; justify-items: center; } }
